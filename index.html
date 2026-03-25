@@ -1,64 +1,227 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-    <meta charset="UTF-8">
-    <title>Mis on Microsoft Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #0078D4;
-        }
-        code {
-            background: #eee;
-            padding: 5px;
-            display: block;
-            margin-top: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MS Projekt — Planeerimine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Mis on Microsoft Project</h1>
-        <p>
-            Microsoft Project on projektijuhtimise tarkvara. 
-            See aitab planeerida ülesandeid, jaotada ressursse, jälgida tähtaegu ja kontrollida projekti edenemist.
-        </p>
 
-        <h2>Mida tähendab "kood" Microsoft Projectis?</h2>
-        <p>
-            Microsoft Projectis võib "kood" tähendada:
-        </p>
-        <ul>
-            <li><b>Ülesannete koodid</b> – unikaalsed identifikaatorid ülesannetele</li>
-            <li><b>Ressursside koodid</b> – töötajate või materjalide tähistused</li>
-            <li><b>VBA (makrod)</b> – programmeerimiskood automatiseerimiseks</li>
-        </ul>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__logo">MS<span>Projekt</span></div>
+    <nav class="nav__links">
+      <a href="#about">Ülevaade</a>
+      <a href="#features">Funktsioonid</a>
+      <a href="#timeline">Ajakava</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <button class="nav__cta">Alusta →</button>
+  </header>
 
-        <h2>Näide koodist (VBA makro)</h2>
-        <p>Siin on lihtne näide koodist, mida saab kasutada Microsoft Projectis:</p>
-
-        <code>
-Sub HelloProject()
-    MsgBox "Tervitus Microsoft Projectist!"
-End Sub
-        </code>
-
-        <p>
-            See kood kuvab hüpikakna sõnumiga.
-        </p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__tag">Projektijuhtimine 2025</div>
+    <h1 class="hero__title">Planeeri.<br/><em>Jälgi.</em><br/>Täida.</h1>
+    <p class="hero__sub">Microsoft Projekti tööriistad, mis muudavad keerukad projektid selgeks tegevuskavaks — täpselt ja ilma liigsete sammudeta.</p>
+    <div class="hero__actions">
+      <a href="#features" class="btn btn--primary">Tutvu funktsioonidega</a>
+      <a href="#timeline" class="btn btn--ghost">Vaata ajakava</a>
     </div>
+    <div class="hero__stat-row">
+      <div class="stat"><span>10 000+</span>Kasutajat Eestis</div>
+      <div class="stat__divider"></div>
+      <div class="stat"><span>98%</span>Rahulolu määr</div>
+      <div class="stat__divider"></div>
+      <div class="stat"><span>ISO 21500</span>Sertifitseeritud</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__label">Mis on MS Projekt?</div>
+    <div class="about__grid">
+      <div class="about__text">
+        <h2>Tark töövahend igale meeskonnale</h2>
+        <p>Microsoft Project on professionaalne projektijuhtimise tarkvara, mis aitab planeerida ressursse, hallata eelarveid ning jälgida projekti edenemist reaalajas. Sobib nii väikestele tiimidele kui ka suurkorporatsioonidele.</p>
+      </div>
+      <div class="about__cards">
+        <div class="card">
+          <div class="card__icon">◈</div>
+          <h3>Gantt diagramm</h3>
+          <p>Visualiseeri kõik ülesanded ja tähtajad ühe pilguga.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">◎</div>
+          <h3>Ressursside haldus</h3>
+          <p>Jaga töid meeskonnaliikmete vahel optimaalselt.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">◇</div>
+          <h3>Eelarve jälgimine</h3>
+          <p>Hoia kulud kontrolli all kogu projekti vältel.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">◉</div>
+          <h3>Aruandlus</h3>
+          <p>Genereeri automaatseid aruandeid juhtkonnale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="features__header">
+      <div class="features__label">Funktsioonid</div>
+      <h2>Kõik, mida vajad edukaks projektiks</h2>
+    </div>
+    <div class="features__list">
+      <div class="feature-item">
+        <span class="feature-item__num">01</span>
+        <div>
+          <h3>Ülesannete haldus</h3>
+          <p>Loo, määra ja jälgi ülesandeid reaalajas. Seo sõltuvused automaatselt.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-item__num">02</span>
+        <div>
+          <h3>Meeskonnatöö</h3>
+          <p>Integratsioon Microsoft Teams ja Outlook keskkondadega.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-item__num">03</span>
+        <div>
+          <h3>Pilvepõhine töö</h3>
+          <p>Ligi pääs igalt seadmelt, igal ajal. Andmed alati sünkroonitud.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-item__num">04</span>
+        <div>
+          <h3>Mallid ja automatiseerimine</h3>
+          <p>Kasuta valmis projektimaalle ja automatiseeri korduvad tööd.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-item__num">05</span>
+        <div>
+          <h3>Riskide juhtimine</h3>
+          <p>Tuvasta ja halda projekti riske enne, kui need probleemiks muutuvad.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-item__num">06</span>
+        <div>
+          <h3>Kriitilise tee analüüs</h3>
+          <p>Leia kiireim tee projekti lõpetamiseni automaatselt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="timeline" id="timeline">
+    <div class="timeline__label">Tüüpiline projekti ajakava</div>
+    <h2>Neli etappi eduni</h2>
+    <div class="timeline__track">
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__phase">Etapp 1</span>
+          <h3>Planeerimine</h3>
+          <p>Eesmärkide seadmine, meeskonna koostamine, eelarve kinnitamine.</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__phase">Etapp 2</span>
+          <h3>Käivitamine</h3>
+          <p>Ülesannete jagamine, tööprotsesside seadistamine, esimesed tulemused.</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <span class="timeline__phase">Etapp 3</span>
+          <h3>Täitmine</h3>
+          <p>Aktiivne töö, edenemise jälgimine, muudatuste haldamine.</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__dot timeline__dot--last"></div>
+        <div class="timeline__content">
+          <span class="timeline__phase">Etapp 4</span>
+          <h3>Lõpetamine</h3>
+          <p>Tulemuste üleandmine, dokumenteerimine, tagasivaade õppetundidele.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__label">Võta ühendust</div>
+      <h2>Alusta oma esimest projekti täna</h2>
+      <p>Meie tiim on valmis sind aitama — nii tehniliste küsimustega kui ka projekti metoodikaga.</p>
+      <div class="contact__info">
+        <div class="contact__item">
+          <span>E-post</span>
+          <a href="mailto:info@msprojekt.ee">info@msprojekt.ee</a>
+        </div>
+        <div class="contact__item">
+          <span>Telefon</span>
+          <a href="tel:+3725551234">+372 555 1234</a>
+        </div>
+        <div class="contact__item">
+          <span>Asukoht</span>
+          <p>Tallinn, Eesti</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">MS<span>Projekt</span></div>
+        <p>Professionaalne projektijuhtimine Microsoft'i töökeskkonnas.</p>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__col">
+          <h4>Toode</h4>
+          <a href="#about">Ülevaade</a>
+          <a href="#features">Funktsioonid</a>
+          <a href="#timeline">Ajakava</a>
+        </div>
+        <div class="footer__col">
+          <h4>Tugi</h4>
+          <a href="#">Dokumentatsioon</a>
+          <a href="#">KKK</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+        <div class="footer__col">
+          <h4>Ettevõte</h4>
+          <a href="#">Meist</a>
+          <a href="#">Blogi</a>
+          <a href="#">Privaatsuspoliitika</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 MSProjekt. Kõik õigused kaitstud.</p>
+      <p>Loodud Eestis ♥</p>
+    </div>
+  </footer>
+
 </body>
 </html>
