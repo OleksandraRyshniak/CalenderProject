@@ -1,73 +1,81 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    color: #222;
+  }
 
-    body {
-      margin: 0;
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, #eef2f3, #dfe9f3);
-      color: #333;
-    }
+  header {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+  }
 
-    header {
-      background: linear-gradient(135deg, #667eea, #764ba2);
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
-    }
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
 
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-    }
+  .subtitle {
+    opacity: 0.9;
+    margin-top: 10px;
+  }
 
-    .subtitle {
-      opacity: 0.8;
-      margin-top: 10px;
-    }
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+  }
 
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 0 15px;
-    }
+  section {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: all 0.25s ease;
+  }
 
-    section {
-      background: white;
-      margin-bottom: 25px;
-      padding: 20px;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-      transition: transform 0.2s;
-    }
+  section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  }
 
-    section:hover {
-      transform: translateY(-5px);
-    }
+  h2 {
+    margin-top: 0;
+    color: #3b5bdb;
+  }
 
-    h2 {
-      margin-top: 0;
-      color: #5a67d8;
-    }
+  p {
+    line-height: 1.5;
+  }
 
-    img {
-      width: 100%;
-      border-radius: 12px;
-      margin-top: 10px;
-    }
+  img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
 
-    .summary {
-      background: linear-gradient(135deg, #f6d365, #fda085);
-      color: #222;
-    }
+  .summary {
+    background: rgba(255, 255, 255, 0.8);
+    border-left: 6px solid #ff7a18;
+  }
 
-    ul li {
-      margin-bottom: 8px;
-    }
+  ul {
+    padding-left: 20px;
+  }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      color: #666;
-      font-size: 14px;
-    }
+  li {
+    margin-bottom: 8px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    opacity: 0.8;
+  }
