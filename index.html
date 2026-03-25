@@ -1,226 +1,123 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MS Projekt — Planeerimine</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <title>MS Project — Kalendri loomine</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <!-- NAV -->
-  <header class="nav">
-    <div class="nav__logo">MS<span>Projekt</span></div>
-    <nav class="nav__links">
-      <a href="#about">Ülevaade</a>
-      <a href="#features">Funktsioonid</a>
-      <a href="#timeline">Ajakava</a>
-      <a href="#contact">Kontakt</a>
-    </nav>
-    <button class="nav__cta">Alusta →</button>
+  <header>
+    <h1>Kalendri loomine Microsoft Project'is</h1>
+    <p class="subtitle">Samm-sammuline juhend tööaja kalendri loomiseks ja kasutamiseks</p>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero__tag">Projektijuhtimine 2025</div>
-    <h1 class="hero__title">Planeeri.<br/><em>Jälgi.</em><br/>Täida.</h1>
-    <p class="hero__sub">Microsoft Projekti tööriistad, mis muudavad keerukad projektid selgeks tegevuskavaks — täpselt ja ilma liigsete sammudeta.</p>
-    <div class="hero__actions">
-      <a href="#features" class="btn btn--primary">Tutvu funktsioonidega</a>
-      <a href="#timeline" class="btn btn--ghost">Vaata ajakava</a>
-    </div>
-    <div class="hero__stat-row">
-      <div class="stat"><span>10 000+</span>Kasutajat Eestis</div>
-      <div class="stat__divider"></div>
-      <div class="stat"><span>98%</span>Rahulolu määr</div>
-      <div class="stat__divider"></div>
-      <div class="stat"><span>ISO 21500</span>Sertifitseeritud</div>
-    </div>
-  </section>
+  <main>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about__label">Mis on MS Projekt?</div>
-    <div class="about__grid">
-      <div class="about__text">
-        <h2>Tark töövahend igale meeskonnale</h2>
-        <p>Microsoft Project on professionaalne projektijuhtimise tarkvara, mis aitab planeerida ressursse, hallata eelarveid ning jälgida projekti edenemist reaalajas. Sobib nii väikestele tiimidele kui ka suurkorporatsioonidele.</p>
-      </div>
-      <div class="about__cards">
-        <div class="card">
-          <div class="card__icon">◈</div>
-          <h3>Gantt diagramm</h3>
-          <p>Visualiseeri kõik ülesanded ja tähtajad ühe pilguga.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">◎</div>
-          <h3>Ressursside haldus</h3>
-          <p>Jaga töid meeskonnaliikmete vahel optimaalselt.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">◇</div>
-          <h3>Eelarve jälgimine</h3>
-          <p>Hoia kulud kontrolli all kogu projekti vältel.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">◉</div>
-          <h3>Aruandlus</h3>
-          <p>Genereeri automaatseid aruandeid juhtkonnale.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section>
+      <h2>Mis on kalender MS Projectis?</h2>
+      <p>
+        Microsoft Project kasutab kalendreid, et määrata, millal saab tööd teha.
+        Kalender määrab tööpäevad, tööajad ja puhkused. Igale projektile, ülesandele
+        või ressursile saab määrata eraldi kalendri.
+      </p>
+    </section>
 
-  <!-- FEATURES -->
-  <section class="features" id="features">
-    <div class="features__header">
-      <div class="features__label">Funktsioonid</div>
-      <h2>Kõik, mida vajad edukaks projektiks</h2>
-    </div>
-    <div class="features__list">
-      <div class="feature-item">
-        <span class="feature-item__num">01</span>
-        <div>
-          <h3>Ülesannete haldus</h3>
-          <p>Loo, määra ja jälgi ülesandeid reaalajas. Seo sõltuvused automaatselt.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <span class="feature-item__num">02</span>
-        <div>
-          <h3>Meeskonnatöö</h3>
-          <p>Integratsioon Microsoft Teams ja Outlook keskkondadega.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <span class="feature-item__num">03</span>
-        <div>
-          <h3>Pilvepõhine töö</h3>
-          <p>Ligi pääs igalt seadmelt, igal ajal. Andmed alati sünkroonitud.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <span class="feature-item__num">04</span>
-        <div>
-          <h3>Mallid ja automatiseerimine</h3>
-          <p>Kasuta valmis projektimaalle ja automatiseeri korduvad tööd.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <span class="feature-item__num">05</span>
-        <div>
-          <h3>Riskide juhtimine</h3>
-          <p>Tuvasta ja halda projekti riske enne, kui need probleemiks muutuvad.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <span class="feature-item__num">06</span>
-        <div>
-          <h3>Kriitilise tee analüüs</h3>
-          <p>Leia kiireim tee projekti lõpetamiseni automaatselt.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section>
+      <h2>Samm 1 — Ava Change Working Time</h2>
+      <p>
+        Mine ülemisse menüüsse ja vali vahekaart <strong>Project</strong>.
+        Klõpsa nuppu <strong>Change Working Time</strong> (eesti keeles: Muuda tööaega).
+        See avab kalendrite halduse akna.
+      </p>
+      <img src ="images/pilt1" alt ="pilt"/>
+    </section>
 
-  <!-- TIMELINE -->
-  <section class="timeline" id="timeline">
-    <div class="timeline__label">Tüüpiline projekti ajakava</div>
-    <h2>Neli etappi eduni</h2>
-    <div class="timeline__track">
-      <div class="timeline__item">
-        <div class="timeline__dot"></div>
-        <div class="timeline__content">
-          <span class="timeline__phase">Etapp 1</span>
-          <h3>Planeerimine</h3>
-          <p>Eesmärkide seadmine, meeskonna koostamine, eelarve kinnitamine.</p>
-        </div>
-      </div>
-      <div class="timeline__item">
-        <div class="timeline__dot"></div>
-        <div class="timeline__content">
-          <span class="timeline__phase">Etapp 2</span>
-          <h3>Käivitamine</h3>
-          <p>Ülesannete jagamine, tööprotsesside seadistamine, esimesed tulemused.</p>
-        </div>
-      </div>
-      <div class="timeline__item">
-        <div class="timeline__dot"></div>
-        <div class="timeline__content">
-          <span class="timeline__phase">Etapp 3</span>
-          <h3>Täitmine</h3>
-          <p>Aktiivne töö, edenemise jälgimine, muudatuste haldamine.</p>
-        </div>
-      </div>
-      <div class="timeline__item">
-        <div class="timeline__dot timeline__dot--last"></div>
-        <div class="timeline__content">
-          <span class="timeline__phase">Etapp 4</span>
-          <h3>Lõpetamine</h3>
-          <p>Tulemuste üleandmine, dokumenteerimine, tagasivaade õppetundidele.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section>
+      <h2>Samm 2 — Vaata olemasolevat kalendrit</h2>
+      <p>
+        Avaneb aken <strong>Change Working Time</strong>. Ülaosas näed rippmenüüd,
+        kust saad valida kalendri. Vaikimisi on kasutusel kalender <strong>uus (Project Calendar)</strong>.
+        Tööajad on näidatud paremal: 08:00–12:00 ja 13:00–17:00.
+        Exceptions vahekaardil on näha lisatud erand <strong>algus</strong> (15.05–18.05.2026).
+      </p>
+      <img src="images/pilt2" alt="Change Working Time aken"/>
+    </section>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="contact__inner">
-      <div class="contact__label">Võta ühendust</div>
-      <h2>Alusta oma esimest projekti täna</h2>
-      <p>Meie tiim on valmis sind aitama — nii tehniliste küsimustega kui ka projekti metoodikaga.</p>
-      <div class="contact__info">
-        <div class="contact__item">
-          <span>E-post</span>
-          <a href="mailto:info@msprojekt.ee">info@msprojekt.ee</a>
-        </div>
-        <div class="contact__item">
-          <span>Telefon</span>
-          <a href="tel:+3725551234">+372 555 1234</a>
-        </div>
-        <div class="contact__item">
-          <span>Asukoht</span>
-          <p>Tallinn, Eesti</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section>
+      <h2>Samm 3 — Loo uus kalender</h2>
+      <p>
+        Klõpsa nuppu <strong>Create New Calendar</strong>. Avaneb dialoog.
+        Vali <strong>Make a copy of Standard</strong>, et kopeerida olemasolev kalender —
+        nii säilivad vaikimisi seaded ja saad muuta ainult vajalikku.
+        Anna kalendrile uus nimi (nt <em>uusKalendar</em>) ja vajuta OK.
+      </p>
+<img src ="images/pilt3" alt ="pilt"/>
+    </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer__top">
-      <div class="footer__brand">
-        <div class="footer__logo">MS<span>Projekt</span></div>
-        <p>Professionaalne projektijuhtimine Microsoft'i töökeskkonnas.</p>
-      </div>
-      <div class="footer__nav">
-        <div class="footer__col">
-          <h4>Toode</h4>
-          <a href="#about">Ülevaade</a>
-          <a href="#features">Funktsioonid</a>
-          <a href="#timeline">Ajakava</a>
-        </div>
-        <div class="footer__col">
-          <h4>Tugi</h4>
-          <a href="#">Dokumentatsioon</a>
-          <a href="#">KKK</a>
-          <a href="#contact">Kontakt</a>
-        </div>
-        <div class="footer__col">
-          <h4>Ettevõte</h4>
-          <a href="#">Meist</a>
-          <a href="#">Blogi</a>
-          <a href="#">Privaatsuspoliitika</a>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <p>© 2025 MSProjekt. Kõik õigused kaitstud.</p>
-      <p>Loodud Eestis ♥</p>
-    </div>
+    <section>
+      <h2>Samm 4 — Lisa erand</h2>
+      <p>
+        Vali loodud kalender <strong>uusKalendar</strong>. Mine vahekaardile <strong>Exceptions</strong>
+        ja lisa uus erand: kirjuta nimi, vali algus- ja lõppkuupäev.
+        25.03.2026 on märgitud mittetööpäevaks.
+      </p>
+<img src ="images/pilt4" alt ="pilt"/>    </section>
+
+    <section>
+      <h2>Samm 5 — Seadista erandi tööajad</h2>
+      <p>
+        Klõpsa <strong>Details</strong>, et määrata täpsed tööajad erandperioodil.
+        Vali <strong>Working times</strong> ja sisesta uued kellaajad:
+        10:00–14:00 ja 15:00–19:00. Saad määrata ka korduvuse —
+        näites kordub erand iga päev vahemikus 25.03–28.03.2026.
+      </p>
+<img src ="images/pilt5" alt ="pilt"/>    </section>
+
+    <section>
+      <h2>Samm 6 — Tulemus kalendris</h2>
+      <p>
+        Pärast OK vajutamist on kuupäevad <strong>25–28. märts</strong> märgitud
+        erandpäevadena (tumendatud). Kalender arvestab nüüd muutunud tööaegadega
+        just neil päevadel.
+      </p>
+<img src ="images/pilt6" alt ="pilt"/>    </section>
+
+    <section>
+      <h2>Samm 7 — Määra kalender ülesandele</h2>
+      <p>
+        Tee topeltklõps ülesandel Gantti vaates, et avada <strong>Task Information</strong>.
+        Mine vahekaardile <strong>Advanced</strong> ja vali <strong>Calendar</strong> rippmenüüst
+        <em>uusKalendar</em>. Nüüd arvestab MS Project selle ülesande ajakava
+        loodud kalendri järgi.
+      </p>
+<img src ="images/pilt7" alt ="pilt"/>    </section>
+
+    <section>
+      <h2>Tulemus — Gantt diagramm</h2>
+      <p>
+        Ülesanne <strong>2.päev – Sünnipäev sõpradega</strong> kestab 0,75 päeva
+        ja algab 15.05.2026 kell 17:00. Kõik alamülesanded on järjestatud automaatselt
+        vastavalt määratud kalendrile.
+      </p>
+<img src ="images/pilt8" alt ="pilt"/>    </section>
+
+    <section class="summary">
+      <h2>Kokkuvõte</h2>
+      <p>Kalender mõjutab otseselt seda, millal MS Project ülesandeid planeerib:</p>
+      <ul>
+        <li>Mittetööpäevadele ülesandeid ei planeerita</li>
+        <li>Muudetud tööajad muudavad ülesande algus- ja lõppaega</li>
+        <li>Iga ülesandele saab määrata erineva kalendri</li>
+        <li>Ressursside kalender ja ülesande kalender võivad erineda</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>2026-Oleksandra Ryshniak</p>
   </footer>
 
 </body>
