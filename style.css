@@ -90,8 +90,8 @@ nav a.active {
   }
 
   img {
-    width: 200;
-    height: 200;
+    width: 100;
+    height: 100;
     border-radius: 15px;
     margin-top: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
