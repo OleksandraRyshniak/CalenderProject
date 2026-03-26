@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MS Project — Arvutusvälja lisamine</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+ 
+  <nav>
+    <a href="index.html">Kalendri loomine</a>
+    <a href="formula.html" class="active">Arvutusvälja lisamine</a>
+    <a href="diagram.html">Diagrammide loomine</a>
+  </nav>
+ 
+  <header>
+    <h1>Arvutusvälja lisamine Microsoft Project'is</h1>
+    <p class="subtitle">Samm-sammuline juhend kohandatud arvutusvälja loomiseks</p>
+  </header>
+ 
+  <main>
+ 
+    <section>
+      <h2>Mis on kohandatud väli MS Projectis?</h2>
+      <p>
+        Microsoft Project võimaldab luua kohandatud välju (Custom Fields), millele saab
+        lisada valemeid. See on kasulik näiteks täidetud tööde maksumuse arvutamiseks
+        automaatselt — kasutades olemasolevaid välju nagu <strong>Cost</strong> ja
+        <strong>% Complete</strong>.
+      </p>
+    </section>
+ 
+    <section>
+      <h2>Samm 1 — Ava Custom Fields</h2>
+      <p>
+        Mine ülemisse menüüsse ja vali vahekaart <strong>Project</strong>.
+        Klõpsa nuppu <strong>Custom Fields</strong>. See avab kohandatud väljade halduse akna.
+      </p>
+      <img src="1774516235563_image.png" alt="Project menüü - Custom Fields nupp"/>
+    </section>
+ 
+    <section>
+      <h2>Samm 2 — Vali välja tüüp ja nimi</h2>
+      <p>
+        Avaneb aken <strong>Custom Fields</strong>. Vali ülaosas <strong>Task</strong>
+        ja muuda tüübiks <strong>Number</strong>. Valige loendist väli (nt <em>Number1</em>)
+        ja klõpsa <strong>Rename</strong>, et anda sellele nimi (nt <em>Cost Complete "€"</em>).
+      </p>
+      <img src="1774516251324_image.png" alt="Custom Fields aken - välja valik ja tüüp"/>
+    </section>
+ 
+    <section>
+      <h2>Samm 3 — Lisa valem</h2>
+      <p>
+        Jaotises <strong>Custom attributes</strong> vali <strong>Formula</strong>.
+        Avaneb valemi redaktor. Sisesta valem:
+      </p>
+      <p><strong>[Cost]*[% Complete]/100</strong></p>
+      <p>
+        See valem arvutab automaatselt, kui suur osa ülesande eelarvest on juba
+        täidetud, lähtudes lõpetamise protsendist. Vajuta <strong>OK</strong>.
+      </p>
+      <img src="1774516278051__41233067-3F8C-4733-8663-F441C84D306B_.png" alt="Valemi redaktor - Cost Complete valem"/>
+    </section>
+ 
+    <section>
+      <h2>Samm 4 — Tulemus Gantti tabelis</h2>
+      <p>
+        Pärast välja lisamist kuvatakse Gantti tabelis uus veerg
+        <strong>Cost Complete "€"</strong>. Veerg arvutab automaatselt iga ülesande
+        jaoks täidetud maksumuse vastavalt lõpetamise protsendile ja kogumaksumusele.
+      </p>
+      <img src="1774516316180__162F41B8-FB14-4A20-A129-04F58147D239_.png" alt="Gantt tabel koos Cost Complete veeruga"/>
+    </section>
 
+ 
+  </main>
+ 
+  <footer>
+    <p>2026-Oleksandra Ryshniak</p>
+  </footer>
+ 
+</body>
+</html>
