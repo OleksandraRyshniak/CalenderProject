@@ -5,89 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="style.css"/>
   <title>MS Project — Diagrammide loomine</title>
-  
-  <nav>
-    <a href="index.html">Kalendri loomine</a>
-    <a href="formula.html">Arvutusvälja lisamine</a>
-    <a href="diagram.html" class="active">Diagrammide loomine</a>
-  </nav>
+</head>
+<body>
 
-  <header>
-    <h1>Diagrammide loomine Microsoft Project'is</h1>
-    <p class="subtitle">Samm-sammuline juhend Cash Flow aruande koostamiseks</p>
-  </header>
+<nav>
+  <a href="index.html">Kalendri loomine</a>
+  <a href="diagram.html" class="active">Diagrammide loomine</a>
+</nav>
 
-  <main>
+<header>
+  <h1>Diagrammide loomine ProjectLibre'is</h1>
+  <p class="subtitle">Samm-sammuline juhend võrgudiagrammi ja Gantti diagrammi kasutamiseks</p>
+</header>
 
-    <section>
-      <h2>Mis on aruanded MS Projectis?</h2>
-      <p>
-        Microsoft Project võimaldab luua visuaalseid aruandeid ja diagramme,
-        mis näitavad projekti kulusid, edenemist ja ressursside kasutust.
-        Aruanded genereeritakse automaatselt projekti andmete põhjal.
-      </p>
-    </section>
+<main>
+  <section>
+    <h2>Samm 1 — Ava võrgudiagramm</h2>
+    <p>
+      Mine ülemisse menüüsse ja vali vahekaart <strong>View</strong>.
+      Vali sealt <strong>Network</strong> (võrgudiagramm).
+      Avaneb vaade, kus iga ülesanne kuvatakse eraldi kastina,
+      millel on näha ülesande nimi, kestus, algus- ja lõppkuupäev.
+    </p>
+  </section>
 
-    <section>
-      <h2>Samm 1 — Ava Report vahekaart</h2>
-      <p>
-        Mine ülemisse menüüsse ja vali vahekaart <strong>Report</strong>.
-        Näed erinevaid aruannete gruppe:
-        <strong>Dashboards</strong>, <strong>Resources</strong>, <strong>Costs</strong>,
-        <strong>In Progress</strong> ja teised.
-      </p>
-      <img src="images/5.png" width= "100%"/>
-    </section>
+  <section>
+    <h2>Samm 2 — Võrgudiagrammi struktuur</h2>
+    <p>
+      Võrgudiagrammis on kõik ülesanded ühendatud nooltega vastavalt
+      nende järjestusele ja sõltuvustele. Projekti alguses on <strong>Ettevalmistus</strong>
+       millest hargnevad alamülesanded:
+      kohviku valik, piduliku riie ostmine jt.
+      Projekti lõpetab ülesanne <strong>süpradega jalutuskäik</strong>.
+    </p>
+    <img src="images_projectLibre/6.png" alt="Võrgudiagramm — ülesannete sõltuvused ja järjestus" width="100%"/>
+  </section>
 
-    <section>
-      <h2>Samm 2 — Vali Costs → Cash Flow</h2>
-      <p>
-        Klõpsa nuppu <strong>Costs</strong> — avaneb rippmenüü järgmiste valikutega:
-        Cash Flow, Cost Overruns, Earned Value Report, Resource Cost Overview, Task Cost Overview.
-        Vali <strong>Cash Flow</strong>, et näha rahavoo diagrammi.
-      </p>
-      <img src="images/6.png"/>
-    </section>
+  <section>
+    <h2>Samm 3 — Ava Gantti diagramm ressurssidega</h2>
+    <p>
+      Mine tagasi vahekaardile <strong>View</strong> ja vali <strong>Gantt</strong>.
+      Gantti vaates näed ülesandeid ajajoonel koos määratud ressurssidega.
+      Ressursid kuvatakse otse Gantti ribade kõrval — näiteks
+      <em>kohvik:Oleksandra;Mariia</em> või <em>Mariia[50%];Oleksandra[50%]</em>.
+    </p>
+  </section>
 
-    <section>
-      <h2>Samm 3 — Tulemus: Cash Flow aruanne</h2>
-      <p>
-        MS Project genereerib automaatselt rahavoo aruande.
-        Aruande ülaosas kuvatakse <strong>4 põhinäitajat</strong>:
-      </p>
-      <ul>
-        <li><strong>Actual Cost</strong> (tegelik kulu): €208,50</li>
-        <li><strong>Baseline Cost</strong> (aluskulu): €0,00</li>
-        <li><strong>Remaining Cost</strong> (järelejäänud kulu): €1 070,50</li>
-        <li><strong>Cost Variance</strong> (kulu hälve): €1 279,00</li>
-      </ul>
-      <p>
-        Diagramm näitab tulpdiagrammina <strong>Cost</strong> ja <strong>Actual Cost</strong> võrdlust.
-      </p>
-      <img src="images/7.png" width= "100%"/>
-    </section>
+  <section>
+    <h2>Samm 4 — Gantti diagrammi lugemine</h2>
+    <p>
+      Gantti diagrammis on näha projekti ajavahemik <strong>27. aprill – 18. mai 2026</strong>.
+      Ülesanded on kuvatud siniste ribadena, sõltuvused mustade nooltena.
+      Projekt lõpeb teemantiga tähistatud vahesammu ehk, 
+      kuupäeval <strong>18.05.26</strong>.
+    </p>
+    <img src="images_projectLibre/7.png" alt="Gantti diagramm — ülesanded, ressursid ja ajajoone 27.apr–18.mai 2026" width="100%"/>
+  </section>
 
-    <section>
-      <h2>Samm 4 — Tabel aruandes</h2>
-      <p>
-        Aruande allosas on tabel, kus on näha iga põhiülesande kulud eraldi
-        koos veergudega: Remaining Cost, Actual Cost, Cost, ACWP, BCWP, BCWS.
-      </p>
-      <ul>
-        <li><strong>Ettevalmistus</strong> — Remaining: €166,50 / Actual: €208,50 / Cost: €375,00</li>
-        <li><strong>1.päev – Sünnipäev kodus</strong> — Cost: €540,00</li>
-        <li><strong>Puhastamine</strong> — Cost: €24,00</li>
-        <li><strong>2.päev – Sünnipäev sõpradega</strong> — Cost: €340,00</li>
-      </ul>
-    </section>
+</main>
 
-
-
-  </main>
-
-  <footer>
-    <p>2026-Oleksandra Ryshniak</p>
-  </footer>
+<footer>
+  <p>2026-Oleksandra Ryshniak</p>
+</footer>
 
 </body>
 </html>
