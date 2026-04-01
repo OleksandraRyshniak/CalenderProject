@@ -54,14 +54,17 @@ Selles projektis loodi õpetlik veebileht **Microsoft Project / ProjectLibre** k
 | :bar_chart: Diagrammid | `diagram.html` | Kuidas luua Cash Flow aruanne |
 
 **Kuidas luua kohandatud tööajakalender lehe**
-<img width="945" height="914" alt="{EAC7F1A4-9ABF-49FD-A97F-B745E4EB5659}" src="https://github.com/user-attachments/assets/b81aad3c-e68e-4b24-86e0-a10cd21a54d7" />
+<img width="810" height="933" alt="{6C9B7506-D3D0-4778-91F9-BBEB3D65EAA5}" src="https://github.com/user-attachments/assets/53f0888e-63a0-48e7-9868-67d46e4ed83e" />
 
 **Kuidas luua ja kasutada diagramme lehe**
-<img width="944" height="902" alt="{52FEC4CF-3989-4AFD-91B9-F2AB011A45D1}" src="https://github.com/user-attachments/assets/1143b048-963f-4ab7-8d94-4e1689115513" />
- **Kuidas lisada valemiga arvutusväli lehe**
+<img width="820" height="947" alt="{41EC118E-4F60-4B2C-815F-72C8C21A3EB8}" src="https://github.com/user-attachments/assets/62f42148-e660-4998-845c-ef00115da717" />
+
+**Kuidas lisada valemiga arvutusväli lehe**
+<img width="796" height="921" alt="{B8BCF6B2-3339-46FC-B842-842665F11DE7}" src="https://github.com/user-attachments/assets/c4c8be46-6b74-4d16-a897-57996bd48da8" />
 
 **Navigatsioonimenüü**
-<img width="940" height="184" alt="{6EB9E55E-5BC7-41D7-BCC2-09ED7B04BAC5}" src="https://github.com/user-attachments/assets/9b834399-396b-4e03-9ba2-769b9d3f45ad" />
+<img width="1010" height="188" alt="{7D207E00-E3DE-40E6-BF00-7F800CE1DD9C}" src="https://github.com/user-attachments/assets/f3fd833d-1777-4b73-94b7-638c6be0b788" />
+
 
 ---
 
