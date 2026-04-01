@@ -12,7 +12,6 @@
 - [Lehed](#page_facing_up-lehed)
 - [Sisu ülevaade](#clipboard-sisu-ülevaade)
 - [Tehtud tööd](#white_check_mark-tehtud-tööd)
-- [Koodinäited](#computer-koodinäited)
 - [Tehnoloogiad](#hammer_and_wrench-tehnoloogiad)
 - [Autor](#bust_in_silhouette-autor)
 
