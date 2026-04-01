@@ -12,7 +12,6 @@
 - [Lehed](#page_facing_up-lehed)
 - [Sisu ülevaade](#clipboard-sisu-ülevaade)
 - [Tehtud tööd](#white_check_mark-tehtud-tööd)
-- [Koodinäited](#computer-koodinäited)
 - [Tehnoloogiad](#hammer_and_wrench-tehnoloogiad)
 - [Autor](#bust_in_silhouette-autor)
 
@@ -54,11 +53,12 @@ Selles projektis loodi õpetlik veebileht **Microsoft Project / ProjectLibre** k
 | :1234: Arvutusväli | `valem.html` | Kuidas lisada valemiga arvutusväli |
 | :bar_chart: Diagrammid | `diagram.html` | Kuidas luua Cash Flow aruanne |
 
-**Kuidas luua kohandatud tööajakalender ProjectLibre'is lehe**
+**Kuidas luua kohandatud tööajakalender lehe**
 <img width="945" height="914" alt="{EAC7F1A4-9ABF-49FD-A97F-B745E4EB5659}" src="https://github.com/user-attachments/assets/b81aad3c-e68e-4b24-86e0-a10cd21a54d7" />
 
-**Kuidas luua ja kasutada diagramme ProjectLibre'is lehe**
+**Kuidas luua ja kasutada diagramme lehe**
 <img width="944" height="902" alt="{52FEC4CF-3989-4AFD-91B9-F2AB011A45D1}" src="https://github.com/user-attachments/assets/1143b048-963f-4ab7-8d94-4e1689115513" />
+ **Kuidas lisada valemiga arvutusväli lehe**
 
 **Navigatsioonimenüü**
 <img width="940" height="184" alt="{6EB9E55E-5BC7-41D7-BCC2-09ED7B04BAC5}" src="https://github.com/user-attachments/assets/9b834399-396b-4e03-9ba2-769b9d3f45ad" />
@@ -67,7 +67,7 @@ Selles projektis loodi õpetlik veebileht **Microsoft Project / ProjectLibre** k
 
 ## :clipboard: Sisu ülevaade
 
-### :calendar: Kalender (`index.html`)
+### :calendar: Kalender (index.html)
 
 Juhend selgitab 7 sammuga, kuidas:
 
@@ -79,7 +79,7 @@ Juhend selgitab 7 sammuga, kuidas:
 6. Vaadata tulemust kalendris
 7. Määrata kalender ülesandele läbi **Task Information → Advanced**
 
-### :1234: Arvutusväli (`valem.html`)
+### :1234: Arvutusväli (valem.html)
 
 Juhend selgitab 4 sammuga, kuidas:
 
@@ -88,7 +88,7 @@ Juhend selgitab 4 sammuga, kuidas:
 3. Lisada valem: `[Cost]*[% Complete]/100`
 4. Vaadata tulemust Gantti tabelis uues veerus
 
-### :bar_chart: Diagrammid (`diagram.html`)
+### :bar_chart: Diagrammid (diagram.html)
 
 Juhend selgitab 4 sammuga, kuidas:
 
@@ -112,40 +112,12 @@ Juhend selgitab 4 sammuga, kuidas:
 
 ---
 
-## :computer: Koodinäited
-
-### Valem arvutusväljale (`valem.html`)
-
-```
-[Cost]*[% Complete]/100
-```
-
-### Pildi lisamine HTML-is
-
-```html
-<img src="images/4.png" alt="Gantt tabel koos Cost Complete veeruga" width="100%"/>
-```
-
-### Navigatsioonimenüü HTML struktuur
-
-```html
-<nav>
-  <a href="index.html">Kalendri loomine</a>
-  <a href="valem.html" class="active">Arvutusvälja lisamine</a>
-  <a href="diagram.html">Diagrammide loomine</a>
-</nav>
-```
-
----
 
 > [!NOTE]
 > Kõik kolm lehte kasutavad ühist `style.css` faili kujunduse jaoks.
 
 > [!TIP]
 > GitHub Pages uueneb automaatselt iga kord, kui teed commit'i harusse `projectLibre`.
-
-> [!WARNING]
-> Ära kustuta `images/` kausta — ilma piltideta ei kuvata lehtedel pilte korrektselt.
 
 ---
 
