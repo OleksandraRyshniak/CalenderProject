@@ -1,6 +1,7 @@
 # :card_index_dividers: MSProject juhendid
 
-> Veebisait, kus selgitatakse samm-sammult, kuidas kasutada **Microsoft Project / ProjectLibre** peamisi funktsioone: kalendrite loomist, arvutusvälja lisamist ja diagrammide kasutamist.
+> Veebisait, kus selgitatakse samm-sammult, kuidas kasutada **Microsoft Projecti** põhilisi funktsioone: kalendrite loomine, arvutusväljade lisamine ja diagrammide kasutamine.
+
 
 ---
 
