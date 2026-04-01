@@ -8,7 +8,6 @@
 
 - [Sait](#globe_with_meridians-sait)
 - [Mida tehti](#wrench-mida-tehti)
-- [Muudetud failid](#file_folder-muudetud-failid)
 - [Lehed](#page_facing_up-lehed)
 - [Sisu ülevaade](#clipboard-sisu-ülevaade)
 - [Tehtud tööd](#white_check_mark-tehtud-tööd)
@@ -31,18 +30,6 @@ Selles projektis loodi õpetlik veebileht **ProjectLibre** kasutamiseks. Lisati 
 - **Diagrammide** (Gantt, võrgudiagramm) kasutamine
 
 Eemaldati fail `valem.html` ning uuendati navigatsioonimenüüd kõigil lehtedel.
-
----
-
-## :file_folder: Muudetud failid
-
-| Fail | Muudatus |
-|------|----------|
-| `index.html` | Uuendatud sisu, lisatud pildid, parandatud tekstid |
-| `diagram.html` | Kirjutatud ümber — lisatud Gantt ja võrgudiagrammi juhend |
-| `style.css` | Uuendatud kujundus pastelltoonides |
-| `valem.html` | :x: Eemaldatud projektist |
-| `README.md` | :new: Loodud |
 
 ---
 
