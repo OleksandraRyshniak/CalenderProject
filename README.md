@@ -67,7 +67,7 @@ Eemaldati fail `valem.html` ning uuendati navigatsioonimenüüd kõigil lehtedel
 
 ## :clipboard: Sisu ülevaade
 
-### :calendar: Kalender (`index.html`)
+### :calendar: Kalender (index.html)
 
 Juhend selgitab 7 sammuga, kuidas:
 
@@ -79,7 +79,7 @@ Juhend selgitab 7 sammuga, kuidas:
 6. Vaadata tulemust kalendris
 7. Määrata kalender ülesandele läbi **Task Information → Advanced**
 
-### :bar_chart: Diagrammid (`diagram.html`)
+### :bar_chart: Diagrammid (diagram.html)
 
 Juhend tutvustab kahte peamist vaadet:
 
@@ -103,41 +103,11 @@ Juhend tutvustab kahte peamist vaadet:
 
 ---
 
-## :computer: Koodinäited
-
-### Kalendri määramine ülesandele (Task Information → Advanced)
-
-```html
-<section>
-  <h2>Samm 7 — Määra kalender ülesandele</h2>
-  <p>
-    Tee topeltklõps ülesandel, vali <strong>Advanced</strong>
-    ja määra <em>newCalendar</em>.
-  </p>
-  <img src="images/4.png" alt="Task Information — Advanced"/>
-</section>
-```
-
-### CSS navigatsiooni aktiivne link
-
-```css
-nav a.active {
-  background: #4a5ac7;
-  color: #ffffff;
-  border-color: #4a5ac7;
-}
-```
-
----
-
 > [!NOTE]
 > Kõik muudatused tehti harus **projectLibre**, mitte `main` harus.
 
 > [!TIP]
 > GitHub Pages uueneb automaatselt iga kord, kui teed commit'i harusse `projectLibre`.
-
-> [!WARNING]
-> Ära kustuta `images/` kausta — ilma piltideta ei kuvata lehtedel pilte korrektselt.
 
 ---
 
