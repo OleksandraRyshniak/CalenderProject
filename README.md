@@ -41,7 +41,8 @@ Eemaldati fail `valem.html` ning uuendati navigatsioonimenüüd kõigil lehtedel
 | :bar_chart: Diagrammid | `diagram.html` | Kuidas luua ja kasutada diagramme ProjectLibre'is |
 
 **Kuidas luua kohandatud tööajakalender ProjectLibre'is lehe**
-<img width="945" height="914" alt="{EAC7F1A4-9ABF-49FD-A97F-B745E4EB5659}" src="https://github.com/user-attachments/assets/b81aad3c-e68e-4b24-86e0-a10cd21a54d7" />
+<img width="815" height="932" alt="{DF614152-9B52-42F5-B9E1-D3FABFC43207}" src="https://github.com/user-attachments/assets/acda017c-de8e-466d-be71-f750d1c3a948" />
+
 
 **Kuidas luua ja kasutada diagramme ProjectLibre'is lehe**
 <img width="944" height="902" alt="{52FEC4CF-3989-4AFD-91B9-F2AB011A45D1}" src="https://github.com/user-attachments/assets/1143b048-963f-4ab7-8d94-4e1689115513" />
