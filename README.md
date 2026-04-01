@@ -4,9 +4,46 @@
 
 ---
 
+## :books: Sisukord
+
+- [Sait](#globe_with_meridians-sait)
+- [Mida tehti](#wrench-mida-tehti)
+- [Muudetud failid](#file_folder-muudetud-failid)
+- [Lehed](#page_facing_up-lehed)
+- [Sisu ülevaade](#clipboard-sisu-ülevaade)
+- [Tehtud tööd](#white_check_mark-tehtud-tööd)
+- [Koodinäited](#computer-koodinäited)
+- [Tehnoloogiad](#hammer_and_wrench-tehnoloogiad)
+- [Autor](#bust_in_silhouette-autor)
+
+---
+
 ## :globe_with_meridians: Sait
 
 <a href="https://oleksandraryshniak.github.io/CalenderProject/index.html">Ava veebileht</a>
+
+---
+
+## :wrench: Mida tehti
+
+Selles projektis loodi õpetlik veebileht **ProjectLibre** kasutamiseks. Lisati kaks juhendit:
+
+- Kohandatud **tööajakalendri** loomine
+- **Diagrammide** (Gantt, võrgudiagramm) kasutamine
+
+Eemaldati fail `valem.html` ning uuendati navigatsioonimenüüd kõigil lehtedel.
+
+---
+
+## :file_folder: Muudetud failid
+
+| Fail | Muudatus |
+|------|----------|
+| `index.html` | Uuendatud sisu, lisatud pildid, parandatud tekstid |
+| `diagram.html` | Kirjutatud ümber — lisatud Gantt ja võrgudiagrammi juhend |
+| `style.css` | Uuendatud kujundus pastelltoonides |
+| `valem.html` | :x: Eemaldatud projektist |
+| `README.md` | :new: Loodud |
 
 ---
 
@@ -31,7 +68,9 @@
 ## :clipboard: Sisu ülevaade
 
 ### :calendar: Kalender (`index.html`)
+
 Juhend selgitab 7 sammuga, kuidas:
+
 1. Avada **Change Working Time** aken
 2. Vaadata olemasolevat kalendrit
 3. Luua uus baasikalender (nt `newCalendar`)
@@ -41,9 +80,64 @@ Juhend selgitab 7 sammuga, kuidas:
 7. Määrata kalender ülesandele läbi **Task Information → Advanced**
 
 ### :bar_chart: Diagrammid (`diagram.html`)
+
 Juhend tutvustab kahte peamist vaadet:
+
 1. **Võrgudiagramm (Network)** — ülesannete sõltuvused ja järjestus graafiliselt
 2. **Gantt ressurssidega** — ressursid ja koormusprotsendid ajajoonel (27.apr–18.mai 2026)
+
+---
+
+## :white_check_mark: Tehtud tööd
+
+- [x] Loodud haru `projectLibre`
+- [x] `index.html` uuendatud: uus sisu ja pildid
+- [x] `diagram.html` ümber kirjutatud: Gantt ja võrgudiagrammi juhend
+- [x] Navigatsioonimenüü uuendatud kõigil lehtedel
+- [x] `valem.html` eemaldatud projektist
+- [x] `images/` kaust loodud ja pildid üles laaditud
+- [x] `style.css` uuendatud pastellkujundusega
+- [x] GitHub Pages seadistatud harust `projectLibre`
+- [x] Issues loodud ja Kanban tahvlil hallataud
+- [x] `README.md` loodud
+
+---
+
+## :computer: Koodinäited
+
+### Kalendri määramine ülesandele (Task Information → Advanced)
+
+```html
+<section>
+  <h2>Samm 7 — Määra kalender ülesandele</h2>
+  <p>
+    Tee topeltklõps ülesandel, vali <strong>Advanced</strong>
+    ja määra <em>newCalendar</em>.
+  </p>
+  <img src="images/4.png" alt="Task Information — Advanced"/>
+</section>
+```
+
+### CSS navigatsiooni aktiivne link
+
+```css
+nav a.active {
+  background: #4a5ac7;
+  color: #ffffff;
+  border-color: #4a5ac7;
+}
+```
+
+---
+
+> [!NOTE]
+> Kõik muudatused tehti harus **projectLibre**, mitte `main` harus.
+
+> [!TIP]
+> GitHub Pages uueneb automaatselt iga kord, kui teed commit'i harusse `projectLibre`.
+
+> [!WARNING]
+> Ära kustuta `images/` kausta — ilma piltideta ei kuvata lehtedel pilte korrektselt.
 
 ---
 
@@ -63,3 +157,8 @@ Juhend tutvustab kahte peamist vaadet:
 
 **Oleksandra Ryshniak**
 © 2026 · Tallinn :estonia:
+
+---
+
+[^1]: ProjectLibre on tasuta avatud lähtekoodiga projektihalduse tarkvara — alternatiiv Microsoft Project'ile.
+[^2]: GitHub Pages võimaldab avaldada staatilisi veebilehti otse repositooriumist.
