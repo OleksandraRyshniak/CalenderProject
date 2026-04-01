@@ -117,7 +117,7 @@ Juhend selgitab 4 sammuga, kuidas:
 ---
 
 
-> [!MÄRKUS]
+> [!NOTE]
 > Kõik kolm lehte kasutavad ühist `style.css` faili kujunduse jaoks.
 
 > [!TIP]
