@@ -2,5 +2,57 @@
 >Veebisait, kus selgitatakse samm-sammult, kuidas kasutada **ProjectLibre** peamisi funktsioone: isiklike töökalendrite loomist ja erinevate diagrammide kasutamist.
 ---
 ## Sait 
-<a href="https://oleksandraryshniak.github.io/CalenderProject/index.html" target="_blank">Ava veebileht</a>
+<a href="https://oleksandraryshniak.github.io/CalenderProject/index.html">Ava veebileht</a>
+---
+## Lehed
+| Leht | Fail | Kirjeldus |
+|------|------|-----------|
+| Kalender | `index.html` | Kuidas luua kohandatud tööajakalender ProjectLibre'is |
+| Diagrammid | `diagram.html` | Kuidas luua ja kasutada diagramme ProjectLibre'is |
 
+**Kuidas luua kohandatud tööajakalender ProjectLibre'is lehe**
+<img width="945" height="914" alt="{EAC7F1A4-9ABF-49FD-A97F-B745E4EB5659}" src="https://github.com/user-attachments/assets/b81aad3c-e68e-4b24-86e0-a10cd21a54d7" />
+
+**Kuidas luua ja kasutada diagramme ProjectLibre'is  lehe**
+<img width="944" height="902" alt="{52FEC4CF-3989-4AFD-91B9-F2AB011A45D1}" src="https://github.com/user-attachments/assets/1143b048-963f-4ab7-8d94-4e1689115513" />
+
+**Navigatsioonimenüü**
+<img width="940" height="184" alt="{6EB9E55E-5BC7-41D7-BCC2-09ED7B04BAC5}" src="https://github.com/user-attachments/assets/9b834399-396b-4e03-9ba2-769b9d3f45ad" />
+
+ ---
+ ## Sisu ülevaade
+ 
+### Kalender (`index.html`)
+Juhend selgitab 7 sammuga, kuidas:
+1. Avada **Change Working Time** aken
+2. Vaadata olemasolevat kalendrit
+3. Luua uus baasikalender (nt `newCalendar`)
+4. Lisada erand konkreetsele kuupäevale
+5. Seadistada kohandatud tööajad väljadega **From / To**
+6. Vaadata tulemust kalendris
+7. Määrata kalender ülesandele läbi **Task Information → Advanced**
+ 
+### Diagrammid (`diagram.html`)
+Juhend tutvustab kahte peamist vaadet:
+1. **Võrgudiagramm (Network)** — ülesannete sõltuvused ja järjestus graafiliselt
+2. **Gantt ressurssidega** — ressursid ja koormusprotsendid ajajoonel (27.apr–18.mai 2026)
+ 
+---
+
+## Tehnoloogiad
+ 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)
+ 
+- **HTML5** — lehtede struktuur
+- **CSS3** — kujundus ja paigutus (`style.css`)
+- **GitHub Pages** — automaatne avaldamine harust `projectLibre`
+ 
+---
+ 
+## Autor
+ 
+**Oleksandra Ryshniak**  
+© 2026 · Tallinn
+ 
